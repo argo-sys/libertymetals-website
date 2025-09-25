@@ -13,7 +13,7 @@
 
         body {
             font-family: 'Arial', sans-serif;
-            background: linear-gradient(135deg, #1e40af 0%, #dc2626 100%);
+            background: linear-gradient(180deg, #1e40af 0%, #dc2626 100%);
             min-height: 100vh;
             display: flex;
             align-items: center;
@@ -82,46 +82,7 @@
             text-decoration: underline;
         }
 
-        /* Animated background elements */
-        .bg-element {
-            position: absolute;
-            border-radius: 50%;
-            background: rgba(255, 255, 255, 0.05);
-            animation: float 6s ease-in-out infinite;
-        }
 
-        .bg-element:nth-child(1) {
-            width: 80px;
-            height: 80px;
-            top: 20%;
-            left: 10%;
-            animation-delay: 0s;
-        }
-
-        .bg-element:nth-child(2) {
-            width: 60px;
-            height: 60px;
-            top: 70%;
-            right: 15%;
-            animation-delay: 2s;
-        }
-
-        .bg-element:nth-child(3) {
-            width: 100px;
-            height: 100px;
-            bottom: 20%;
-            left: 15%;
-            animation-delay: 4s;
-        }
-
-        @keyframes float {
-            0%, 100% {
-                transform: translateY(0px);
-            }
-            50% {
-                transform: translateY(-20px);
-            }
-        }
 
         /* Responsive design */
         @media (max-width: 768px) {
@@ -160,16 +121,10 @@
     </style>
 </head>
 <body>
-    <div class="bg-element"></div>
-    <div class="bg-element"></div>
-    <div class="bg-element"></div>
-
     <div class="container">
-        <img src="libertymetalslogo.jpg" alt="Liberty Metals Logo" class="logo">
+        <img src="logo.jpg" alt="Liberty Metals Logo" class="logo">
         
         <h1>Liberty Metals</h1>
-        
-        <p class="subtitle"></p>
         
         <div class="coming-soon">
             Website Coming Soon
